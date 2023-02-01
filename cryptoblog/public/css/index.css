@@ -1,0 +1,19 @@
+
+.content-textarea {
+    height: auto;
+    resize: none;
+}
+
+.content-textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.green-hover:hover {
+    background: rgb(32,143,143);
+}
+
+.green-hover{
+    border: 1px solid rgb(32,143,143);
+    color: rgb(32,143,143);
+}

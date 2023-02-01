@@ -1,0 +1,30 @@
+
+# Общий процесс
+миграции
+модели
+контроллеры
+представления
+
+# Просмотреть список маршрутов
+php artisan route:list
+
+# Запуск локального сервера по адресу localhost:80
+php artisan serve --port=80
+
+# Запуск миграций
+php artisan migrate
+
+# Пересоздание миграций (таблиц)
+php artisan migrate:refresh
+
+# Создание готового контроллера для модели User
+php artisan make:controller UserController --resource --model=User
+
+# Создания контроллера
+php artisan make:controller LoginController
+
+# Создать модель Admins
+php artisan make:model Admins
+
+# Создать миграцию (таблицу) Admins
+php artisan make:migration create_table_admins
