@@ -28,3 +28,4 @@ php artisan make:model Admins
 
 # Создать миграцию (таблицу) Admins
 php artisan make:migration create_table_admins
+##
